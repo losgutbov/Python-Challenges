@@ -8,7 +8,6 @@ class Agrupador:
 
     def __init__(self, path_base) -> None:
         self._path_base = path_base
-        self._colunas = None
 
     def ler_planilha(self, path_planilha):
         return pd.read_excel(path_planilha)
